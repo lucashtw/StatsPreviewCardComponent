@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+
+/*cores*/
+:root {
+    --laranja: hsl(31, 77%, 52%);
+    --cyan: hsl(184, 100%, 22%);
+    --cyan-escuro: hsl(179, 100%, 13%);
+    --branco: hsla(0, 0%, 100%, 0.75);
+    --cinza-claro: hsl(0, 0%, 95%);
+  
+    --cinza: #999;
+    --cinza-escuro: #555;
+    --preto: #000;
+  }
+
+  /*tamanho da caixa*/
+  *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+  }
