@@ -20,3 +20,86 @@
       margin: 0;
       box-sizing: border-box;
   }
+
+  body {
+      font-family: "Lexend Deca", sans-serif;
+      background-color: var(--cinza-claro);
+      font-size: 15px;
+      overflow: hidden;
+      display: flex;
+      height: 100vh;
+      overflow: auto;
+      color: var(--branco);
+  }
+
+  /*estilo dos cards*/
+
+  main{
+      display: flex;
+      flex-direction:row;
+      justify-content: center;
+      align-items: center;
+      width:100%;
+      flex-wrap: wrap;
+  }
+
+  article{
+      max-width: 278px;
+      height: 450px;
+      padding: 42px;
+      position:relative;
+
+  }
+
+  article.sedan {
+    background-color: var(--laranja);
+    border-radius: 7px 0 0 7px;
+  }
+  
+  article.suv {
+    background-color: var(--cyan);
+  }
+  
+  article.luxury {
+    background-color: var(--cyan-escuro);
+    border-radius: 0 7px 7px 0;
+  }
+  
+  img {
+    margin-bottom: 36px;
+  }
+  
+  h1 {
+    color: var(--cinza-claro);
+    font-family: "Big Shoulders Display", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+  }
+  
+  article p {
+    color: var(--branco);
+    font-size: 13.8px;
+    line-height: 1.5rem;
+  }
+button{
+
+}
+.sedan button{
+
+}
+.suv button{
+
+}
+.luxury button{
+
+}
+button:hover{
+
+}
+button:active{
+
+}
+/*rodape*/
+
+/*mobile*/
