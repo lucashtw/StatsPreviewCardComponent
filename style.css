@@ -83,23 +83,76 @@
     line-height: 1.5rem;
   }
 button{
-
+  positon:absolute;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  padding: 14px;
+  width:146px;
+  outline: none;
+  border: 2px solid var(--cinza-claro);
+  font-family: inherit;
+  transition: all 0.2s ease-in-out;
+  bottom: 42px;
 }
 .sedan button{
-
+  background: var(--cinza-claro);
+  color: var(--laranja);
 }
 .suv button{
-
+  background-color: var(--cinza-claro);
+  color: var(--cyan);
 }
 .luxury button{
-
+  background-color: var(--cinza-escuro);
+  color: var(--cinza-escuro);
 }
 button:hover{
-
+  background-color: transparent;
+  color: var(--cinza-escuro);
 }
 button:active{
-
+  transform: scale(0.9);
 }
 /*rodape*/
-
+.rodape{
+  width: 100%;
+  margin: 0 auto;
+  position:absolute;
+  color: var(--cinza);
+  bottom: 10px;
+  font-size: 0.75rem;
+  line-height: 20px;
+  text-align: center;
+}
+.rodape a{
+  text-decoration: none;
+  color:var(--cinza-escuro);
+}
 /*mobile*/
+@media only screen and (max-width:844px){
+  body{
+    display: flex;
+    width:100%;
+    overflow:scroll;
+    flex-wrap:wrap;
+  }
+  main{
+    padding: 50px 0;
+    flex-direction: column;
+  }
+  article.sedan{
+    border-radius: 7px 7px 0 0;
+  }
+  article.luxury{
+    border-radius: 0 0 7px 7px;
+  }
+  article p{
+    font-size: 0.77rem;
+  }
+  .rodape{
+    position:relative;
+    width:auto;
+    padding-bottom: 10px;
+  }
+}
